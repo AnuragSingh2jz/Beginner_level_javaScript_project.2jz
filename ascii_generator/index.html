@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        overflow: scroll;
+        scroll-behavior: smooth;
+        background-color: rgb(87, 87, 87);
+        margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .h1{
+        border-radius:400px;
+    }
+    .home{
+        
+            transition: border-radius 0.4s ease;
+            /* Other styling properties for .home can go here */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 600px;
+        background-color: burlywood;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 400px;
+        background-color: aquamarine;
+        border-radius: 100px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 100px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        width: 200px;
+        font-size: 35px;
+        color: rgb(33, 33, 33);
+        font-family:Arial, Helvetica, sans-serif;
+    }
+</style>
+
+
+<body>
+    <div class="home h1">
+        <div class="container">
+            <div class="btn">
+            </div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
